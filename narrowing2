@@ -1,0 +1,7 @@
+ // double 164567.77 sayisini int’a ve sonra da olusturdugunuz int sayiyi byte’a cevirip
+    yazdirin
+        double sayi= 164567.77;
+        int yeniSayi=(int) sayi;
+        System.out.println(yeniSayi);
+        byte newNo= (byte) yeniSayi;
+        System.out.println(newNo);
