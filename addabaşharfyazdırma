@@ -1,0 +1,6 @@
+ // Kullanicidan ismini alip isminin bas harfini yazdirin.
+
+        Scanner scan = new Scanner(System.in);
+        System.out.println("lutfen adinizi giriniz.");
+       char ad=scan.next().charAt(0);
+        System.out.println("adinizin bas harfi:"+ ad);
