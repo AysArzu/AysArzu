@@ -1,0 +1,11 @@
+ Kullanicidan dikdortgenin kenar uzunluklarini isteyin ve dikdortgenin kare olup
+ olmadigini yazdirin
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Lutfen iki sayi giriniz.");
+        int sayi1 = scan.nextInt();
+        int sayi2 = scan.nextInt();
+        if (sayi1 == sayi2) {
+            System.out.println("bu bir karedir");
+        } else {
+            System.out.println("bu dikdörtgendir");
+        }
