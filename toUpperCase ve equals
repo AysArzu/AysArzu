@@ -1,0 +1,20 @@
+
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Lutfen bir harf giriniz.");
+       String harf = scan.next().toUpperCase();
+
+
+
+        if (harf.equals("P"))
+        {
+            System.out.println("Günler:pazartesi, persembe veya pazar");
+        }
+        if (harf.equals("S")) {
+            System.out.println("Gün: Sali");
+        }
+        if (harf.equals("C")  ) {
+            System.out.println("Günler: Carşamba, cuma veya cumartesi");
+        }
+
+    }
+}
