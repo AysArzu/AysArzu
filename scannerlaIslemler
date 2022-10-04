@@ -1,0 +1,12 @@
+
+// Soru2 ) Kullanicidan iki tamsayi alip bu sayilarin toplam,fark ve carpimlarini yazdirin
+        Scanner scan = new Scanner(System.in);
+        System.out.println("lütfen iki tam sayı giriniz");
+        int sayi1 = scan.nextInt();
+        int sayi2 = scan.nextInt();
+        int toplam = sayi2 + sayi1;
+        int fark = sayi2 - sayi1;
+        int carpim = sayi2 * sayi1;
+        System.out.println("sayilarin toplami:"+toplam+ "\nsayilarin farki:"+fark+" \nsayiların çarpimi:"+carpim);
+    }
+}
