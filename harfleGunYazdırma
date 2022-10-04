@@ -1,0 +1,15 @@
+// 2) Kullanicidan gun isimlerinden birinin ilk harfini isteyin ve o harfle baslayan gun isimlerini yazdirin
+        //Ornek: ilkHarf=P cikan = “Pazar, Pazartesi veya Persembe”
+
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Lutfen bir harf giriniz.");
+        char harf = scan.next().charAt(0);
+        if (harf == 'P' || harf == 'p') {
+            System.out.println("Günler:pazartesi, persembe veya pazar");
+        }
+        if (harf == 's' || harf == 'S') {
+            System.out.println("Gün:" + "Sali");
+        }
+        if (harf == 'c' || harf == 'C') {
+            System.out.println("Günler:Carşamba, cuma veya cumartesi");
+        }
