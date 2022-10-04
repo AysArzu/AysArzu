@@ -1,0 +1,8 @@
+ // Kullanicidan ismini ve soyismini alip aralarinda bir bosluk olusturarak yazdirin
+
+        Scanner scan = new Scanner(System.in);
+        System.out.println("lutfen adinizi giriniz.");
+        String ad=scan.nextLine();
+        System.out.println("lutfen soyadinizi giriniz.");
+        String soyad=scan.nextLine();
+        System.out.println("adiniz ve soyadiniz: "+ ad+" "+soyad);
