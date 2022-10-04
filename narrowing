@@ -1,0 +1,14 @@
+        //byte veri tipinde bir degisken olusturun, short,int,float ve double data tiplerinde
+        //birer degisken olusturup adim adim widening yapin ve yazdirin
+        double e = 153.4;
+        System.out.println(e);
+        float d = (float) e;
+        System.out.println(d);
+        long c = (long) d;
+        System.out.println(c);
+        int b = (int) c;
+        System.out.println(b);
+        short a = (short) b;
+        System.out.println(a);
+        byte sayi = (byte) a;
+        System.out.println(sayi);
