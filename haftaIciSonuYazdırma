@@ -1,0 +1,10 @@
+            Kullanicidan gun ismini alin ve haftaici veya hafta sonu oldugunu yazdirin
+      
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Lutfen bir gun adi giriniz.");
+        String gun = scan.next();
+        if(gun.equals("pazartesi")||gun.equals("sali")|| gun.equals("carsamba") || gun.equals("persembe")|| gun.equals("cuma")){
+            System.out.println("hafta içi");}
+        if (gun.equals("cumartesi")|| gun.equals("pazar")){
+            System.out.println("haftasonu");
+        }
