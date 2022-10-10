@@ -1,0 +1,40 @@
+
+package bootcamp;
+
+
+public class Odevler {
+    public static void main(String[] args) {
+
+     String mesaj="antartikalilastiramadiklarimizdan misiniz? Ha";
+        System.out.println(mesaj.length());
+        System.out.println(mesaj.charAt(mesaj.length()-1));// son karakter
+        System.out.println(mesaj.replaceAll("\\W","").replaceAll("\\s",""));
+
+        System.out.println(mesaj.charAt(mesaj.length()-7));// sondan 7. harf
+        System.out.println(mesaj.substring(8));
+        System.out.println(mesaj.substring(3,23));
+        System.out.println(mesaj.substring(mesaj.length()-6).toUpperCase());
+        System.out.println(mesaj.substring(0,1).toUpperCase()+mesaj.substring(1));
+        System.out.println(mesaj.contains("ali"));// true
+
+
+              /*  mail @ işareti yoksa geçersiz mail
+                sonu gmail.com ile bitmiyorsa yazım hatası
+                @gmail.com ile bitmiyorsa gmail. adresi giriniz
+        \*
+
+               */
+        System.out.println("----------------------");
+           String mail= "kamuranbattal@gmail.com";
+
+             if(!mail.contains("@")){
+                 System.out.println("lutfen geçerli mail adresi giriniz");
+             }
+             if (!mail.endsWith("gmail.com")){
+                 System.out.println("gmail adresi giriniz");
+             }
+             if(mail.contains("@gmail.com")){
+                 System.out.println("geçerli mail adresi girdiniz");
+             }
+
+        }}
