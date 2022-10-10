@@ -1,0 +1,27 @@
+package bootcamp;
+
+
+public class Odevler {
+    public static void main(String[] args) {
+
+      String mesaj="today is very sunny";
+        System.out.println(mesaj);
+        System.out.println("Eleman sayisi:"+ mesaj.length());
+
+        System.out.println("5. harf:"+ mesaj.charAt(4));
+        System.out.println("harf ekle "+ mesaj.concat(" yuppiii"));
+        System.out.println(mesaj.toUpperCase());
+        System.out.println(mesaj.toLowerCase());
+        System.out.println(mesaj.startsWith("t"));// true
+        System.out.println(mesaj.endsWith("y"));
+        System.out.println(mesaj.indexOf(5));
+        System.out.println(mesaj.indexOf('a'));
+        System.out.println(mesaj.indexOf("ry"));
+        System.out.println(mesaj.lastIndexOf('y'));
+        System.out.println(mesaj.replace(' ', '_'));
+        System.out.println(mesaj.substring(7));
+        System.out.println(mesaj.substring(3, 9));
+         String mesaj2= "             Today is very sunny           ";
+            System.out.println(mesaj2);
+    System.out.println(mesaj2.trim());
+        }}
